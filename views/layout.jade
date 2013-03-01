@@ -1,0 +1,13 @@
+doctype 5
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='/stylesheets/leaflet.css')
+		//if lte IE 8
+			link(rel='stylesheet',href='/styles/leaflet.ie.css')
+		script(src='/javascripts/leaflet.js')
+		script(src='/javascripts/jquery-1.9.1.min.js')
+
+	body
+		block content
